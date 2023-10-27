@@ -10,7 +10,9 @@ inline void makebin(unsigned int num){
         k2>>=1;
     } while (k2 != 0);
 }
+void makebin(unsigned int num, char bin[]){
 
+}
 int main() {
     unsigned int num = 0;
     std::cin>>num;
